@@ -1,4 +1,4 @@
-FROM alpine:latest as base
+FROM alpine:latest
 
 LABEL maintainer="Aleks Shubert<alex@shubert.ru>"
 
@@ -11,7 +11,5 @@ RUN apk add --update nodejs npm git \
 
 USER 1000
 WORKDIR "/home/space"
-
-FROM base AS service
 
 ENTRYPOINT ["/usr/local/bin/readme-generator"]
