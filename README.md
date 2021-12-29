@@ -10,4 +10,4 @@ Usage example:
 docker  run --rm --mount type=bind,source="$(pwd)",target=/home/space lure/readme-generator -v values.yaml -r README.MD
 ```
 
-P.S.: check out the (JetBrains Space)[https://www.jetbrains.com/space/] you'll love it. 
+P.S.: check out the [JetBrains Space](https://www.jetbrains.com/space/) you'll love it. 
